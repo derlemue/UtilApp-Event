@@ -12,6 +12,14 @@
 //
 /////////////////////////////////////////////////////////////////////***
 
+///
+///	Trigger to fire when new row is added to Google Sheet
+///
+	function onFormSubmit(e){
+	Logger.log("[METHOD] onFormSubmit");
+		emailSenderEvent();
+	}
+
 ///	Script to parse Email from Sheet and send by alias
 ///
 	function emailSenderEvent(){
