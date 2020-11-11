@@ -37,8 +37,8 @@
 //
 //	/calc_duration.gs
 //	| Info:
-//	| script to calculated duration between to times
-//	| from given Google Sheet.
+//	| script to calculate duration between to
+//	| timestamps from given Google Sheet.
 //	| Dependencies:
 //	|	Google Sheet (external)
 //
