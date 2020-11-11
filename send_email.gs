@@ -88,7 +88,15 @@
 				email_draft.vError = row[vError];
 				email_draft.vCause = row[vCause];
 				email_draft.vInterrup = row[vInterrup];
+                var vTime2F = Date.parse(ws_input.getSheetValues(lastRow, 5, 1, 1));
+                Logger.log(vTime2F)                
+                if ((Number.isNaN(vTime2F))) { Logger.log("Input Fail 2");
+                email_draft.vDuration = "n.a."
+                email_draft.vTime2 = "n.a."
+                }
+                else {
                 email_draft.vDuration = calcTime()
+                }
   
 /// get variables for Email subject, assemble Email and send by alias
 				var vBody = email_draft.evaluate().getContent();

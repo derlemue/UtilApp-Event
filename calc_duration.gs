@@ -43,6 +43,7 @@ function calcTime() {
       if (Number.isNaN(vTime2F)){ Logger.log("Input Fail");
       var cell = ws_input.getRange(ws_input.getLastRow(),13);
       cell.setValue("calc failed");
+      return Number.isNaN(vTime2F)
       } else {
 
 
