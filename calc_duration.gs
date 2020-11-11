@@ -102,6 +102,7 @@ function calcTime() {
 /// parse to sheet
       var cell = ws_input.getRange(ws_input.getLastRow(),13);
       cell.setValue(vDuration+":00");
+      return vDuration;
 }
 
 ///

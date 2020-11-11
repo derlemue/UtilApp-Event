@@ -88,6 +88,7 @@
 				email_draft.vError = row[vError];
 				email_draft.vCause = row[vCause];
 				email_draft.vInterrup = row[vInterrup];
+                email_draft.vDuration = calcTime()
   
 /// get variables for Email subject, assemble Email and send by alias
 				var vBody = email_draft.evaluate().getContent();
