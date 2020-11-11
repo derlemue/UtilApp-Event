@@ -11,7 +11,7 @@
 //
 //	repository folder and files tree:
 //
-//	derlemue/UtilApp-Call
+//	derlemue/UtilApp-Event
 //	|-- .gitignore
 //	|-- LICENSE
 //	|-- README.md
